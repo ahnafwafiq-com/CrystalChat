@@ -1,0 +1,40 @@
+{
+  "name": "crystalchat",
+  "version": "1.0.0",
+  "description": "A highly interactive video chat app",
+  "main": "app.js",
+  "scripts": {
+    "test": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahnafwafiq-com/CrystalChat.git"
+  },
+  "keywords": [
+    "CrystalChat",
+    "AhnafWafiq.com",
+    "LLC",
+    "AhnafWafiq.com"
+  ],
+  "author": "AhnafWafiq.com LLC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ahnafwafiq-com/CrystalChat/issues"
+  },
+  "homepage": "https://github.com/ahnafwafiq-com/CrystalChat#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.8.3",
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "workspaces": [
+    "app"
+  ],
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
